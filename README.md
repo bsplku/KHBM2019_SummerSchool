@@ -1,1 +1,1 @@
-# KHBM2019_summer_school
+# KHBM2019SummerSchool
