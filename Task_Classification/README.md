@@ -4,7 +4,7 @@ You may easily implement weight sparsity control follwing several steps describe
 --
 
 1. Introduction of sensorimotor experiment
-  - Describing task paradigm, BOLD signal acquisition and preprocessing.
+    - Describing task paradigm, BOLD signal acquisition and preprocessing.
   
 2. Sensorimotor task classification using MLP (Tensorflow)
   2-1. Input data
