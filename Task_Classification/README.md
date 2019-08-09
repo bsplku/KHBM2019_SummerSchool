@@ -20,7 +20,7 @@ You may easily implement weight sparsity control follwing several steps describe
       - Declaring parameters such as cost and error.
     
     2-5. Define Hoyer's sparsity control function
-      - Calculating Hoyer's sparsity level and adjust beta 
+      - Calculating Hoyer's sparsity level and adjust beta.
     
     2-6. Set hyperparameters for training
       - Settign hyperparameters such as learning rate and target sparsity level.
