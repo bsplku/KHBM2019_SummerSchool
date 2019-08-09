@@ -20,4 +20,4 @@ emt_valence_sample.mat: Valence emotion reponses rated from a subjects [80 sampl
 
 mask_map.nii: Binary in-brain mask 
 
-beta_maps_80trials.nii: 4D beta maps obtained for each sound stimulus [53 x 63 x 46 x 80; xdim x ydim x zdim x samples]
+[beta_maps_80trials.nii](http://bspl.korea.ac.kr/beta_maps_80trials.nii): 4D beta maps obtained for each sound stimulus [53 x 63 x 46 x 80; xdim x ydim x zdim x samples]
