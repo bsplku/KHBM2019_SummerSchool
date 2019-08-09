@@ -26,11 +26,11 @@ You may easily implement weight sparsity control follwing several steps describe
       - Settign hyperparameters such as learning rate and target sparsity level.
   
     2-7. Create a model using definitions above
-      - Creating actual model before training
+      - Creating actual model before training.
     
     2-8. Learning
-      - Starting the training
-      - The optimal sparsity set is found using validation set
+      - Starting the training.
+      - The optimal sparsity set is found using validation set.
     
     2-9. Save parameters and summary as text file
       - Saving the hyperparameters and summary in text file.
