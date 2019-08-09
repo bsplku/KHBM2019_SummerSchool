@@ -1,6 +1,6 @@
 KHBM2019_SummerSchool
 
-KHBM 2019 MVPA for whole brain, 11:00 - 13:00, Aug. 17 (Saruday), 2019
+KHBM 2019 MVPA for whole brain, 11:00 - 13:00, Aug. 17 (Saturday), 2019
 
 ch01 - Introduction of MVPA for whole brain                            11:00 - 11:20 
 
