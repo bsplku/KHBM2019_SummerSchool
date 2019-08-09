@@ -4,22 +4,19 @@ the classification performance using whole-brain resting-state functional connec
 schizophrenia patient and healthy groups. Also, initializing DNN's weights through stacked auto-encoder enhanced 
 the classification performance (Jang et al., Neuroimage 2017, Kim et al., Neuroimage, 2016). 
 
-The DNN code is for regression anlaysis to predict emotional responses (i.e., scores) from whole-brain fMRI data. 
-The Python codes were modified from the DeepLearningTutorials (https://github.com/lisa-lab/DeepLearningTutorials) 
-to apply a node-wise and layer-wise control of weight sparsity via Hoyer sparseness (Kim and Lee, PRNI2016 & ICASSP2017).
+The DNN code is for regression anlaysis to predict emotional responses (i.e., scores) from whole-brain fMRI data. In the code, there are two opitions: a node-wise and layer-wise control of weight sparsity via Hoyer sparseness (Kim and Lee, PRNI2016 & ICASSP2017). The DNN code was implemented using TensorFlow. 
 
-dnnwsp_hsp_denoise.py: a code for a DNN model with weight sparsity control 
+In this tutorial, we are going to use Google Colaboratory Notebook [https://colab.research.google.com/] Colaboratory allows you to execute TensorFlow code in your browser with a single click. Google colab is a cloud based data science work space similar to the jupyter notebook. Each colab session is equipped with a virtual machine running 13 GB of ram and either a CPU, GPU, or TPU processor. These work spaces are great for building and sharing machine learning or deep learning projects with colleagues and associates [https://www.youtube.com/watch?v=f1UK8KPt-KU&app=desktop].
 
-dnnwsp_reg_h3_wt_denoising.ipynb: detailed information about the code for a DNN model with weight sparsity control 
+==
+st01_Generating_input_data_using_fMRI4D.ipynb: To generate 2-D data from 4-D fMRI data
 
-dnnwsp_rst_check.ipynb: a code to investigate the results obtained from the DNN with weight sparsity control
+st02_TF_dnnwsp_emotion_study.ipynb: To run DNN model for regression analysis
 
-emt_valence_sample.mat: sample data
-############# emt_sample_data.mat #############
-# train_x  = 64 volumes x 55417 voxels  
-# train_y  = 64 volumes x 1 [valence, arousal or dominance scores for training]
-# test_x  = 16 volumes x 55417 voxels
-# test_y  = 16 volumes x 1 [valence, arousal or dominance scores for test]
-###############################################
+st03_DNNwsp_result_check.ipynb: To check and interpret results  
 
-rst_vlnc_predcition.mat: results obtained from the DNN with weight sparsity control
+emt_valence_sample.mat: Valence emotion reponses rated from a subjects [80 samples]
+
+mask_map.nii: Binary mask 
+
+beta_maps_80trials.nii: 4D beta maps obtained for each sound stimulus [53 x 63 x 46 x 80; xdim x ydim x zdim x samples]
