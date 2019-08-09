@@ -8,13 +8,13 @@ You may easily implement weight sparsity control follwing several steps describe
   
 2. Sensorimotor task classification using MLP (Tensorflow)
     2-1. Input data
-      - Showing the volume data and converting to actual input of MLP.
+      - Showing the brain volume data and converting to actual input of MLP.
     
     2-2. Import libraries
-      -  Importing necessary libraries.
+      - Importing necessary libraries.
     
     2-3. Define a classifier
-      - Builing a MLP network for a classification.
+      - Builing an MLP network for a classification.
     
     2-4. Define training parameters
       - Declaring parameters such as cost and error.
@@ -23,7 +23,7 @@ You may easily implement weight sparsity control follwing several steps describe
       - Calculating Hoyer's sparsity level and adjust beta.
     
     2-6. Set hyperparameters for training
-      - Settign hyperparameters such as learning rate and target sparsity level.
+      - Setting hyperparameters such as learning rate and target sparsity level.
   
     2-7. Create a model using definitions above
       - Creating actual model before training.
@@ -33,5 +33,5 @@ You may easily implement weight sparsity control follwing several steps describe
       - The optimal sparsity set is found using validation set.
     
     2-9. Save parameters and summary as text file
-      - Saving the hyperparameters and summary in text file.
+      - Saving the hyperparameters and summary in a text file.
 
