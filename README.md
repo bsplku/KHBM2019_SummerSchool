@@ -1,5 +1,5 @@
 
-| KHBM2019 SummerSchool [Aug. 17 (Saturday), 2019] |
+| KHBM2019 Summer School [Aug. 17 (Saturday), 2019] |
 |     :---:      | 
 | KHBM 2019 MVPA for whole brain |
 | ch01 - Introduction of MVPA for whole brain [11:00 - 11:20] |
