@@ -4,9 +4,11 @@ You may easily implement weight sparsity control follwing several steps describe
 --  
   
 1. Introduction of sensorimotor experiment  
-    - Describing task paradigm, BOLD signal acquisition and preprocessing.  
-    
-    
+    1-1. Weight featrue map interpretation  
+    1-2. Blood-oxygenation-level-dependent (BOLD) fMRI data  
+    1-3. Preprocessing of BOLD FMRI data  
+      
+       
 2. Sensorimotor task classification using MLP (Tensorflow)  
   
     2-1. Input data
