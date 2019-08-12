@@ -5,13 +5,13 @@ You may easily implement weight sparsity control follwing several steps describe
   
 1. Introduction of sensorimotor experiment  
     1-1. Task paradigm  
-          - Left-hand clenching (LH), right-hand clenching, auditory attention (AD), and visual stimulus (VS) tasks.  
+      - Left-hand clenching (LH), right-hand clenching, auditory attention (AD), and visual stimulus (VS) tasks.  
             
     1-2. Blood-oxygenation-level-dependent (BOLD) fMRI data  
-          - Scanner spcification and imaging sequence.  
+      - Scanner spcification and imaging sequence.  
             
     1-3. Preprocessing of BOLD FMRI data  
-          - Preprocessing via SPM.  
+      - Preprocessing via SPM.  
       
        
 2. Sensorimotor task classification using MLP (Tensorflow)  
