@@ -35,5 +35,7 @@ You may easily implement weight sparsity control follwing several steps describe
       - The optimal sparsity set is found using validation set.  
     
     2-9. Save parameters and summary as text file
-      - Saving the hyperparameters and summary in a text file.  
-
+      - Saving the hyperparameters and summary in a text file.   
+        
+    2-10. Weight featrue map interpretation  
+      - Custruvting and plotting weight feature maps for the interpretation
