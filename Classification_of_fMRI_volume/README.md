@@ -12,8 +12,9 @@ You may easily implement weight sparsity control follwing several steps describe
             
     1-3. Preprocessing of BOLD FMRI data  
       - Preprocessing via SPM.  
-      
-       
+  
+  
+  
 2. Sensorimotor task classification using MLP (Tensorflow)  
   
     2-1. Input data
