@@ -21,32 +21,32 @@ ___
   
 # 2. Sensorimotor task classification using MLP (Tensorflow)  
   
-   __2-1. Input data__
+   __2-1. Input data__  
      - Showing the brain volume data and converting to actual input of MLP.  
     
-   __2-2. Import libraries__
+   __2-2. Import libraries__  
      - Importing necessary libraries.  
     
-   __2-3. Define a classifier__
+   __2-3. Define a classifier__  
      - Builing an MLP network for a classification.  
     
-   __2-4. Define training parameters__ 
+   __2-4. Define training parameters__  
      - Declaring parameters such as cost and error.  
     
-   __2-5. Define Hoyer's sparsity control function__
+   __2-5. Define Hoyer's sparsity control function__  
      - Calculating Hoyer's sparsity level and adjust beta.  
     
-   __2-6. Set hyperparameters for training__
+   __2-6. Set hyperparameters for training__  
      - Setting hyperparameters such as learning rate and target sparsity level.  
   
-   __2-7. Create a model using definitions above__
+   __2-7. Create a model using definitions above__  
      - Creating actual model before training.  
     
-   __2-8. Learning__
+   __2-8. Learning__  
      - Starting the training.
      - The optimal sparsity set is found using validation set.  
     
-   __2-9. Save parameters and summary as text file__
+   __2-9. Save parameters and summary as text file__  
      - Saving the hyperparameters and summary in a text file.   
         
    __2-10. Weight featrue map interpretation__  
