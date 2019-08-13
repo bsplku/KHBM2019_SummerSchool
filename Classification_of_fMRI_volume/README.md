@@ -1,4 +1,4 @@
-This code uses the weight sparsity control in a multi layer neural network for classification.  
+This code uses the weight sparsity control in a multi-layer neural network for classification.  
 You may easily utilize the weight sparsity control follwing several steps described below.  
 
 
@@ -19,7 +19,7 @@ ___
 ##
   
   
-# 2. Sensorimotor task classification using MLP (Tensorflow)  
+# 2. Task classification using neural network (Tensorflow)  
   
    __2-1. Input data__  
      - Showing the brain volume data and converting to actual input of MLP.  
