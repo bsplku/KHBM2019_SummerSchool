@@ -1,21 +1,25 @@
 This code is for weight sparsity control in multi layer perceptron (MLP).  
-You may easily implement weight sparsity control follwing several steps described below.   
+You may easily utilize the weight sparsity control follwing several steps described below.  
 
---  
-  
-1. Introduction of sensorimotor experiment  
-    1-1. Task paradigm  
+
+#  
+
+
+
+# 1. Introduction of sensorimotor experiment  
+    ## 1-1. Task paradigm  
       - Left-hand clenching (LH), right-hand clenching, auditory attention (AD), and visual stimulus (VS) tasks.  
             
-    1-2. Blood-oxygenation-level-dependent (BOLD) fMRI data  
+    ## 1-2. Blood-oxygenation-level-dependent (BOLD) fMRI data  
       - Scanner spcification and imaging sequence.  
             
-    1-3. Preprocessing of BOLD FMRI data  
+    ## 1-3. Preprocessing of BOLD FMRI data  
       - Preprocessing via SPM.  
   
+___
   
   
-2. Sensorimotor task classification using MLP (Tensorflow)  
+# 2. Sensorimotor task classification using MLP (Tensorflow)  
   
     2-1. Input data
       - Showing the brain volume data and converting to actual input of MLP.  
