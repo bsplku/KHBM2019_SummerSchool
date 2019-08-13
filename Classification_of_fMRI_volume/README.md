@@ -7,7 +7,7 @@ You may easily utilize the weight sparsity control follwing several steps descri
 
 
 # 1. Introduction of sensorimotor experiment  
-    __1-1. Task paradigm**__ 
+    *1-1. Task paradigm* 
       - Left-hand clenching (LH), right-hand clenching, auditory attention (AD), and visual stimulus (VS) tasks.  
             
     __1-2. Blood-oxygenation-level-dependent (BOLD) fMRI data__ 
