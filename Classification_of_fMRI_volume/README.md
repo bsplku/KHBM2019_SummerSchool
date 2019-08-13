@@ -7,13 +7,13 @@ You may easily utilize the weight sparsity control follwing several steps descri
 
 
 # 1. Introduction of sensorimotor experiment  
-    ## 1-1. Task paradigm  
+    ** 1-1. Task paradigm ** 
       - Left-hand clenching (LH), right-hand clenching, auditory attention (AD), and visual stimulus (VS) tasks.  
             
-    ## 1-2. Blood-oxygenation-level-dependent (BOLD) fMRI data  
+    ** 1-2. Blood-oxygenation-level-dependent (BOLD) fMRI data ** 
       - Scanner spcification and imaging sequence.  
             
-    ## 1-3. Preprocessing of BOLD FMRI data  
+    ** 1-3. Preprocessing of BOLD FMRI data ** 
       - Preprocessing via SPM.  
   
 ___
@@ -21,16 +21,16 @@ ___
   
 # 2. Sensorimotor task classification using MLP (Tensorflow)  
   
-    2-1. Input data
+    ** 2-1. Input data **
       - Showing the brain volume data and converting to actual input of MLP.  
     
-    2-2. Import libraries
+    ** 2-2. Import libraries **
       - Importing necessary libraries.  
     
-    2-3. Define a classifier
+    ** 2-3. Define a classifier **
       - Builing an MLP network for a classification.  
     
-    2-4. Define training parameters
+    ** 2-4. Define training parameters** 
       - Declaring parameters such as cost and error.  
     
     2-5. Define Hoyer's sparsity control function
