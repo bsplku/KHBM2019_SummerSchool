@@ -7,13 +7,13 @@ ___
 
 
 # 1. Introduction of sensorimotor experiment  
-   __1-1. Task paradigm__
+   __1-1. Task paradigm__  
      - Left-hand clenching (LH), right-hand clenching, auditory attention (AD), and visual stimulus (VS) tasks.  
             
-   __1-2. Blood-oxygenation-level-dependent (BOLD) fMRI data__ 
+   __1-2. Blood-oxygenation-level-dependent (BOLD) fMRI data__  
      - Scanner spcification and imaging sequence.  
             
-   __1-3. Preprocessing of BOLD FMRI data__ 
+   __1-3. Preprocessing of BOLD FMRI data__  
       - Preprocessing via SPM.  
   
 ##
