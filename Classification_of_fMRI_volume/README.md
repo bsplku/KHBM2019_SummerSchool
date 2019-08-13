@@ -2,7 +2,7 @@ This code is for weight sparsity control in multi layer perceptron (MLP).
 You may easily utilize the weight sparsity control follwing several steps described below.  
 
 
-#  
+___ 
 
 
 
@@ -16,7 +16,7 @@ You may easily utilize the weight sparsity control follwing several steps descri
    __1-3. Preprocessing of BOLD FMRI data__ 
       - Preprocessing via SPM.  
   
-___
+##
   
   
 # 2. Sensorimotor task classification using MLP (Tensorflow)  
@@ -51,3 +51,5 @@ ___
         
    __2-10. Weight featrue map interpretation__  
      - Custruvting and plotting weight feature maps for the interpretation
+     
+  ##
