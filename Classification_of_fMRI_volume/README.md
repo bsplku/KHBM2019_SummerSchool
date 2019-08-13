@@ -1,4 +1,4 @@
-This code is for weight sparsity control in multi layer perceptron (MLP).  
+This code uses the weight sparsity control in a multi layer neural network for classification.  
 You may easily utilize the weight sparsity control follwing several steps described below.  
 
 
