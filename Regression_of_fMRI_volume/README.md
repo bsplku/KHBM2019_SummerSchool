@@ -10,11 +10,7 @@ In this tutorial, we are going to use Google Colaboratory Notebook [https://cola
 
 ==
 
-st01_Generating_input_data_using_fMRI4D.ipynb: To generate 2-D data from 4-D fMRI data
-
-st02_TF_dnnwsp_emotion_study.ipynb: To run DNN model for regression analysis
-
-st03_DNNwsp_result_check.ipynb: To check and interpret results  
+dnnwsp_hsp_tensorflow_regression.ipynb: To generate input data, conduct regression analysis using DNN model, and interpret the DNN results 
 
 emt_valence_sample.mat: Valence emotion responses rated from a subjects [80 samples]
 
