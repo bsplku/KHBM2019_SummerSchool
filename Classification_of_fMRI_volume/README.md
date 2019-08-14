@@ -42,7 +42,7 @@ ___
    __2-7. Create a model using definitions above__  
      - Creating actual model before training.  
     
-   __2-8. Learning__  
+   __2-8. Start learning__  
      - Starting the training.
      - The optimal sparsity set is found using validation set.  
     
