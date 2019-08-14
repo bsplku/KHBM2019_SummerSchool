@@ -4,7 +4,7 @@ You may easily utilize the weight sparsity control follwing several steps descri
 
 ___ 
 
-# prerequisites
+# Prerequisites
 
   - Type 'git clone https://github.com/bsplku/KHBM2019_SummerSchool' in the command line, or go to the link and manually download .zip file, and then unzip it
 
@@ -37,7 +37,7 @@ ___
     
    __2-1. Input data__  
      - Once more, go to the link and copy & paste the authorization code.  
-     - Load data from the downloaded file.
+     - Load data from the downloaded file.  
      - Plot the volume data using Nilearn library.
      
    __2-2. Import libraries__  
