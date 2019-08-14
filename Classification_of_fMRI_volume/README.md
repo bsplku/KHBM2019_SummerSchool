@@ -4,7 +4,19 @@ You may easily utilize the weight sparsity control follwing several steps descri
 
 ___ 
 
+# prerequisites
 
+  - Type 'git clone https://github.com/bsplku/KHBM2019_SummerSchool' in the command line, or go to the link and manually download .zip file, and then unzip it
+
+  - Go to 'https://colab.research.google.com' and log-in to Google
+ 
+  - File - Open notebook - UPLOAD - Choose file:  .../KHBM2019_SummerSchool-master/Classification_of_fMRI_volume/dnnwsp_hsp_tensorflow.ipynb
+ 
+  - Edit - Notebook Settings: Set Runtime type as 'Python 3' and Hardware accelerator as GPU
+  
+  - Go to https://drive.google.com to see and download the results
+
+##
 
 # 1. Introduction of sensorimotor experiment  
    __1-1. Task paradigm__  
@@ -13,43 +25,47 @@ ___
    __1-2. Blood-oxygenation-level-dependent (BOLD) fMRI data__  
      - Scanner spcification and imaging sequence.  
             
-   __1-3. Preprocessing of BOLD FMRI data__  
+   __1-3. Preprocessing of BOLD fMRI data__  
       - Preprocessing via SPM.  
   
 ##
   
   
 # 2. Task classification using neural network (Tensorflow)  
-  
-   __2-1. Input data__  
-     - Showing the brain volume data and converting to actual input of MLP.  
+  __2-0. Mounting Google drive to save the results__  
+     - Go to the link and copy & paste the authorization code. 
     
+   __2-1. Input data__  
+     - Once more, go to the link and copy & paste the authorization code.  
+     - Load data from the downloaded file.
+     - Plot the volume data using Nilearn library.
+     
    __2-2. Import libraries__  
-     - Importing necessary libraries.  
+     - Importing necessary Python libraries.  
     
    __2-3. Define a classifier__  
-     - Builing an MLP network for a classification.  
+     - Define a neural network classifier.  
     
    __2-4. Define training parameters__  
-     - Declaring parameters such as cost and error.  
+     - Define training parameters such as cost(= loss) and so on.  
     
    __2-5. Define Hoyer's sparsity control function__  
-     - Calculating Hoyer's sparsity level and adjust beta.  
+     - Define the function of calculating and updating beta based on Hoyer's sparseness.  
     
    __2-6. Set hyperparameters for training__  
-     - Setting hyperparameters such as learning rate and target sparsity level.  
+     - Specify your model spec (Here is the part that you might want to modify for your own model).  
   
-   __2-7. Create a model using definitions above__  
-     - Creating actual model before training.  
+   __2-7. Initialize a model using definitions above__  
+     - Actually build the model from the definitions and specifications.  
     
    __2-8. Start learning__  
-     - Starting the training.
-     - The optimal sparsity set is found using validation set.  
+     - Start training (This block will automatically find the optimal sparsity from the validation performances, and then test with selected one).  
     
    __2-9. Save parameters and summary as text file__  
-     - Saving the hyperparameters and summary in a text file.   
+     - Save the hyperparameter values that you set and classification errors from validation and test phases in a text file.   
         
    __2-10. Weight feature map interpretation__  
-     - Custruvting and plotting weight feature maps for the interpretation
+     - Calcualte the weight feature maps from the trained weight parameters and visualize it by Nibabel
+  
      
   ##
