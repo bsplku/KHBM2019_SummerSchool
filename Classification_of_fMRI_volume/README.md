@@ -49,7 +49,7 @@ ___
    __2-9. Save parameters and summary as text file__  
      - Saving the hyperparameters and summary in a text file.   
         
-   __2-10. Weight featrue map interpretation__  
+   __2-10. Weight feature map interpretation__  
      - Custruvting and plotting weight feature maps for the interpretation
      
   ##
